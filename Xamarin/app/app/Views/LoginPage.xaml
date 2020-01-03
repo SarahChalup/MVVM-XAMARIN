@@ -6,8 +6,8 @@
         
         <ScrollView>
             <StackLayout
-                Padding="15"
-                BackgroundColor="White">
+                Padding="20"
+                BackgroundColor="PaleTurquoise">
                
 
                 <Image
@@ -24,7 +24,7 @@
                         Grid.Row="0"
                         Grid.Column="0"
                         Text="    Email"
-                        TextColor="Black"
+                        TextColor="White"
                         >
                     </Label>
 
@@ -38,7 +38,7 @@
                         Grid.Row="1"
                         Grid.Column="0"
                         Text="    Password"
-                        TextColor="Black">
+                        TextColor="White">
                     </Label>
 
                     <Entry
@@ -53,7 +53,7 @@
                 <ActivityIndicator>
                 </ActivityIndicator>
                 <Button x:Name="btLogin"  
-                    BackgroundColor="Navy"
+                    BackgroundColor="PeachPuff"
                     Text="Login">
                 </Button>
 

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="app.Views.ListViewPage1">
     <StackLayout>
-    <Label Text=" Listado de Prueba"    HorizontalOptions="Center" TextColor="Navy"></Label>
+    <Label Text=" Lista de Elementos"    HorizontalOptions="Center" TextColor="Violet"></Label>
     <ListView x:Name="MyListView"> 
 
     <ListView.ItemTemplate>
