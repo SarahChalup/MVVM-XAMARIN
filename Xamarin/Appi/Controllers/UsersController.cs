@@ -18,16 +18,16 @@ namespace Appi.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/Users
-        public IQueryable<User> GetUsers()
+        public IQueryable<Usuario> GetUsers()
         {
             return db.Users;
         }
 
         // GET: api/Users/5
-        [ResponseType(typeof(User))]
+        [ResponseType(typeof(Usuario))]
         public IHttpActionResult GetUser(int id)
         {
-            User user = db.Users.Find(id);
+            Usuario user = db.Users.Find(id);
             if (user == null)
             {
                 return NotFound();
@@ -38,7 +38,7 @@ namespace Appi.Controllers
 
         // PUT: api/Users/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutUser(int id, User user)
+        public IHttpActionResult PutUser(int id, Usuario user)
         {
             if (!ModelState.IsValid)
             {
@@ -72,8 +72,8 @@ namespace Appi.Controllers
         }
 
         // POST: api/Users
-        [ResponseType(typeof(User))]
-        public IHttpActionResult PostUser(User user)
+        [ResponseType(typeof(Usuario))]
+        public IHttpActionResult PostUser(Usuario user)
         {
             if (!ModelState.IsValid)
             {
@@ -87,10 +87,10 @@ namespace Appi.Controllers
         }
 
         // DELETE: api/Users/5
-        [ResponseType(typeof(User))]
+        [ResponseType(typeof(Usuario))]
         public IHttpActionResult DeleteUser(int id)
         {
-            User user = db.Users.Find(id);
+            Usuario user = db.Users.Find(id);
             if (user == null)
             {
                 return NotFound();

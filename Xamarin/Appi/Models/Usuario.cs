@@ -9,7 +9,7 @@ namespace Appi.Models
         PhoneN0umber,
 
     }
-    public class User
+    public class Usuario
     {
         [Key]
         public int PhoneID { get; set; }

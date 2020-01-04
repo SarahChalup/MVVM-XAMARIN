@@ -9,6 +9,6 @@
 
         }
 
-        public System.Data.Entity.DbSet<Appi.Models.User> Users { get; set; }
+        public System.Data.Entity.DbSet<Appi.Models.Usuario> Users { get; set; }
     }
 }
